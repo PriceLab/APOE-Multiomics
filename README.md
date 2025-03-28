@@ -1,4 +1,4 @@
-# WORK IN PROGRESS
+# WORK IN PROGRESS, FILES TO BE UPLOADED
 
 # APOE-Multiomics
 
@@ -15,67 +15,67 @@ This repo includes scripts ran in Jupyter Notebook for performing the analyses a
 In this README, each notebook is described, including the necessary input data and output files/figures generated. Note that input data needed for scripts to run must be requested (see "Requesting data" below).
 
 ### Code01_Arivale_Indiv_Metab_Analysis.ipynb
-Code ////  
+Code used to analyze individual metabolite abundance differences across APOE and delta age statuses in Arivale, including stratified by sex and chronological age tertiles.
 Inputs:
-* xxx
-Outputs:
-* xxxx
+* xxx//////////
+Outputs (consolidated into Supplementary Files 1 & 2; included in Supplementary Table 3; used in figure scripts):
+* ///
 
 ### Code02_Arivale_Interaction_Analysis.ipynb
 Code ////  
 Inputs:
-* xxx
-Outputs:
-* xxxx
+* xxx/////////////
+Outputs (to be inputs for Code03):
+* xxxx//////////////////
 
 ### Code03_Arivale_Interaction_Analysis_Tidy_Interpret.ipynb
-Code ////  
-Inputs:
-* xxx
-Outputs:
-* xxxx
+Code ////  ////
+Inputs (from Code02 outputs):
+* xxx//////////
+Outputs (consolidated into Supplementary File 3; Summarized in Table 2 and Supplementary Table 4; used in circos figure script):
+* xxxx/////////////
 
 ### Code04_TwinsUK_Indiv_Metab_Analysis.ipynb
 Code ////  
 Inputs:
-* xxx
-Outputs:
-* xxxx
+* xxx///////////
+Outputs (consolidated into Supplementary File 4; Included in Supplementary Table 3; used in figure scripts):
+* xxxx/////////
 
 ### Code05_TwinsUK_Interaction_Analysis.ipynb
 Code ////  
 Inputs:
-* xxx
-Outputs:
-* xxxx
+* xxx//////////
+Outputs (to be inputs for Code06):
+* xxxx//////////
 
 ### Code06_TwinsUK_Interaction_Analysis_Tidy_Interpret.ipynb
 Code ////  
-Inputs:
-* xxx
-Outputs:
-* xxxx
+Inputs (from Code05 outputs):
+* xxx////////
+Outputs (consolidated into Supplementary File 5):
+* xxxx//////////
 
 ### Code07_Enrichment_Analyses_and_Overlapping_Tables.ipynb
 Code ////  
 Inputs:
-* xxx
+* xxx////////
 Outputs:
-* xxxx
+* Results included in Supplementary Files 1 and 4; Table 3; Supplementary Tables 1 and 2
 
 ### Code08_Figure_Script.ipynb
-Code ////  
+Code used to generate figures, including comments for offline arranging and annotating.
 Inputs:
-* xxx
+* xxx////////
 Outputs:
-* xxxx
+* Plots used for Figures 2-4 & S1-S6
 
 ### InteractionNetworkVisualization.ipynb
 R code used to make the circos plots in Figures 3d and 3e, with sections rearranged in ppt.  
 Inputs:
 * Organized Arivale Interaction Analysis results (240707_ME2_MBioOld_FBioOld_for_circos_fig.xlsx)
 Outputs:
-* Two circos plot figure files (rearranged to be Figures 3d and 3e).
+* Two circos plot figure files (arranged to Figures 3d and 3e)
 
 ## Requesting data
 Qualified researchers can access the above deidentified input files for research purposes. Requests for the above files or for Arivale data should be sent to data-access@isbscience.org.  
