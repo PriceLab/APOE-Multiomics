@@ -12,7 +12,7 @@ Correspondence to: Noa Rappaport; email: noa.rappaport@isbscience.org
 
 This repo includes scripts ran in Jupyter Notebook for performing the analyses and generating the figures for the study.  
 
-In this README, each notebook is described, including the necessary input data and output files/figures generated. 
+In this README, each notebook is described, including the necessary input data and output files/figures generated. Note that input data needed for scripts to run must be requested (see "Requesting data" below).
 
 ### Code01_Arivale_Indiv_Metab_Analysis.ipynb
 Code ////  
@@ -70,12 +70,12 @@ Inputs:
 Outputs:
 * xxxx
 
-### Code09_Circos_Figure_Script.ipynb
-Code ////  
+### InteractionNetworkVisualization.ipynb
+R code used to make the circos plots in Figures 3d and 3e, with sections rearranged in ppt.  
 Inputs:
-* xxx
+* Organized Arivale Interaction Analysis results (240707_ME2_MBioOld_FBioOld_for_circos_fig.xlsx)
 Outputs:
-* xxxx
+* Two circos plot figure files (rearranged to be Figures 3d and 3e).
 
 ## Requesting data
 Qualified researchers can access the above deidentified input files for research purposes. Requests for the above files or for Arivale data should be sent to data-access@isbscience.org.  
