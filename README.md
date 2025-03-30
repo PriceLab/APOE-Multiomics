@@ -66,14 +66,16 @@ Outputs:
 ### Code08_Figure_Script.ipynb
 Code used to generate figures, including comments for offline arranging and annotating.
 Inputs:
-* xxx////////
+* Arivale individual metabolite abundance analysis results (250217_Arivale_Indiv.csv and 250217_Arivale_Indiv_delage.csv)
+* 
 Outputs:
-* Plots used for Figures 2-4 & S1-S6
+* Plots used for Figures 2-4 & S1-S6, data used for Table 1
 
 ### Code09_InteractionNetworkVisualization.ipynb
 R code used to make the circos plots in Figures 3d and 3e, with sections rearranged in ppt.  
 Inputs:
 * Organized Arivale Interaction Analysis results (240707_ME2_MBioOld_FBioOld_for_circos_fig.xlsx)
+* Metadata/analyte labels (240725_Arivale-APOE-BA_CleanMetadata_analyte-metadata.xlsx and 240819_Arivale-APOE-BA-Microbiome_Gaps_Filled.xlsx)
 Outputs:
 * Two circos plot figure files (arranged to Figures 3d and 3e)
 
