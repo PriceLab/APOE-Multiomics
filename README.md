@@ -17,16 +17,17 @@ In this README, each notebook is described, including the necessary input data a
 ### Code01_Arivale_Indiv_Metab_Analysis.ipynb
 Code used to analyze individual metabolite abundance differences across APOE and delta age statuses in Arivale, including stratified by sex and chronological age tertiles.
 Inputs:
-* xxx//////////
+* Preprocessed Arivale data: Arivale_preprocecessed_indiv_metab_analysis_data.csv
+* Metabolomics metadata: Arivale_metabolomics_metadata.csv
 Outputs (consolidated into Supplementary Files 1 & 2; included in Supplementary Table 3; used in figure scripts):
-* ///
+* Data files for APOE and delta age GLMs, including sex stratified and chronological age stratified results
 
 ### Code02_Arivale_Interaction_Analysis.ipynb
-Code ////  
+Code for running multi-omic interaction analyses in Arivale. The correct sections need to be commented in/out when running the script to select the correct stratified analysis (out of 11).
 Inputs:
 * xxx/////////////
 Outputs (to be inputs for Code03):
-* xxxx//////////////////
+* Log files and txt.gz result files from interaction analyses
 
 ### Code03_Arivale_Interaction_Analysis_Tidy_Interpret.ipynb
 Code ////  ////
