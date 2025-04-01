@@ -37,18 +37,19 @@ Outputs (consolidated into Supplementary File 3; Summarized in Table 2 and Suppl
 * xxxx/////////////
 
 ### Code04_TwinsUK_Indiv_Metab_Analysis.ipynb
-Code ////  
+Code for running individual metabolite abundance analysis in TwinsUK.
 Inputs:
-* xxx///////////
+* Preprocessed TwinsUK data: E1199_15122022_1_TwinsUK_Metab_Abundance.csv
 Outputs (consolidated into Supplementary File 4; Included in Supplementary Table 3; used in figure scripts):
-* xxxx/////////
+* Data files for APOE GLMs, including sex stratified and chronological age stratified results
 
 ### Code05_TwinsUK_Interaction_Analysis.ipynb
-Code ////  
+Code for running targeted multi-omic interaction analysis in TwinsUK.
 Inputs:
-* xxx//////////
-Outputs (to be inputs for Code06):
-* xxxx//////////
+* Metabolomics metadata (subpathways from Metabolon, Arivale applies to TwinsUK): Arivale_metabolomics_metadata.csv
+* Preprocessed TwinsUK data: E1199_15122022_2_TwinsUK_Interaction_Analysis.csv
+Outputs:
+* Data files organized into Supplementary File 5
 
 ### Code06_Enrichment_Analyses_and_Overlapping_Tables.ipynb
 Code ////  
@@ -60,8 +61,8 @@ Outputs:
 ### Code07_Figure_Script.ipynb
 Code used to generate figures, including comments for offline arranging and annotating.
 Inputs:
-* Arivale individual metabolite abundance analysis results (250217_Arivale_Indiv.csv and 250217_Arivale_Indiv_delage.csv)
-* 
+* xxx
+* xxx
 Outputs:
 * Plots used for Figures 2-4 & S1-S6, data used for Table 1
 
