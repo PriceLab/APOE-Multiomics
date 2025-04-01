@@ -50,21 +50,14 @@ Inputs:
 Outputs (to be inputs for Code06):
 * xxxx//////////
 
-### Code06_TwinsUK_Interaction_Analysis_Tidy_Interpret.ipynb
-Code ////  
-Inputs (from Code05 outputs):
-* xxx////////
-Outputs (consolidated into Supplementary File 5):
-* xxxx//////////
-
-### Code07_Enrichment_Analyses_and_Overlapping_Tables.ipynb
+### Code06_Enrichment_Analyses_and_Overlapping_Tables.ipynb
 Code ////  
 Inputs:
 * xxx////////
 Outputs:
 * Results included in Supplementary Files 1 and 4; Table 3; Supplementary Tables 1 and 2
 
-### Code08_Figure_Script.ipynb
+### Code07_Figure_Script.ipynb
 Code used to generate figures, including comments for offline arranging and annotating.
 Inputs:
 * Arivale individual metabolite abundance analysis results (250217_Arivale_Indiv.csv and 250217_Arivale_Indiv_delage.csv)
@@ -72,7 +65,7 @@ Inputs:
 Outputs:
 * Plots used for Figures 2-4 & S1-S6, data used for Table 1
 
-### Code09_InteractionNetworkVisualization.ipynb
+### Code08_InteractionNetworkVisualization.ipynb
 R code used to make the circos plots in Figures 3d and 3e, with sections rearranged in ppt.  
 Inputs:
 * Organized Arivale Interaction Analysis results (240707_ME2_MBioOld_FBioOld_for_circos_fig.xlsx)
@@ -80,7 +73,7 @@ Inputs:
 Outputs:
 * Two circos plot figure files (arranged to Figures 3d and 3e)
 
-### Code10_TwinsUK_BA_Fitting.ipynb
+### Code09_TwinsUK_BA_Fitting.ipynb
 Code used to generate multi-omic biological age values for TwinsUK cohort.  
 Inputs:
 * xxxxx
