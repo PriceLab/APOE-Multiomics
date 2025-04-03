@@ -1,5 +1,3 @@
-# WORK IN PROGRESS, FILES TO BE UPLOADED
-
 # APOE-Multiomics
 
 ## APOE Genotype and Biological Age Impact Inter-Omic Associations Related to Bioenergetics
@@ -80,7 +78,16 @@ Outputs:
 Code for performing enrichment analysis on the metabolites identified in Code01 and Code04, as well as constructing an overlapping table.  
 
 Inputs:
-* xxx////////  
+* 250217_Arivale_Indiv.csv  
+* 250217_Arivale_Indiv_FEMALE.csv  
+* 250217_Arivale_Indiv_MALE.csv  
+* 250217_Arivale_Indiv_delage.csv  
+* 250217_Arivale_Indiv_delage_FEMALE.csv  
+* 250217_Arivale_Indiv_delage_MALE.csv  
+* 250217_TwinsUK_Indiv.csv  
+* 250217_TwinsUK_Indiv_FEMALE.csv  
+* 250217_TwinsUK_Indiv_MALE.csv  
+* Arivale_metabolomics_metadata.csv  
 
 Outputs:
 * Results included in Supplementary Files 1 and 4; Table 3; Supplementary Tables 1 and 2
@@ -89,11 +96,14 @@ Outputs:
 Code used to generate figures, including comments for offline arranging and annotating.  
 
 Inputs:
-* xxx
-* xxx
+* 250217_Arivale_Indiv.csv  
+* 250217_Arivale_Indiv_delage.csv   
+* 250217_TwinsUK_Indiv.csv  
+* Arivale_preprocessed_interaction_analysis.csv  
+* E1199_15122022_2_TwinsUK_Interaction_Analysis.csv  
 
 Outputs:
-* Plots used for Figures 2-4 & S1-S6, data used for Table 1
+* Plots used for Figures 2-4 & S1-S6
 
 ### Code08_InteractionNetworkVisualization.ipynb
 R code used to make the circos plots in Figures 3d and 3e, with sections rearranged in ppt.  
