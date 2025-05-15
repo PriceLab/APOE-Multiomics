@@ -2,7 +2,9 @@
 
 ## APOE Genotype and Biological Age Impact Inter-Omic Associations Related to Bioenergetics
 
-Ellis et al., preprint doi: https://doi.org/10.1101/2024.10.17.618322  
+Ellis D, Watanabe K, Wilmanski T, Lustgarten MS, Korat AVA, Glusman G, Hadlock J, Fiehn O, Sebastiani P, Price ND, Hood L, Magis AT, Evans SJ, Pflieger L, Lovejoy JC, Gibbons SM, Funk CC, Baloni P, Rappaport N. APOE genotype and biological age impact inter-omic associations related to bioenergetics. Aging (Albany NY). 2025 May 3;17. doi: 10.18632/aging.206243. Epub ahead of print. PMID: 40323280.
+
+Preprint doi: https://doi.org/10.1101/2024.10.17.618322  
   
 Correspondence to: Noa Rappaport; email: noa.rappaport@isbscience.org  
 
@@ -144,6 +146,7 @@ The following packages/libraries were used in Python (v 3.9.7) and R (v 4.1.1) i
 * colorspace
 
 ## Log
-Last update on April 2, 2025
+Last update on May 14, 2025
 * March 2025 Initialized this repository on Github
 * 2025-04-02 Uploaded Jupyter Notebooks to repo, drafted README
+* 2025-05-14 Updated README with peer-reviewed DOI
